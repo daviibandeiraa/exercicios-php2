@@ -16,13 +16,13 @@
     <div class="col">
       <div class="form-outline">
         <input type="text" id="form6Example1" class="form-control" />
-        <label class="form-label" for="form6Example1">First name</label>
+        <label class="form-label" for="form6Example1">Nome</label>
       </div>
     </div>
     <div class="col">
       <div class="form-outline">
         <input type="text" id="form6Example2" class="form-control" />
-        <label class="form-label" for="form6Example2">Last name</label>
+        <label class="form-label" for="form6Example2">Rua</label>
       </div>
     </div>
   </div>
@@ -30,38 +30,66 @@
   <!-- Text input -->
   <div class="form-outline mb-4">
     <input type="text" id="form6Example3" class="form-control" />
-    <label class="form-label" for="form6Example3">Company name</label>
+    <label class="form-label" for="form6Example3">Numero</label>
   </div>
 
   <!-- Text input -->
   <div class="form-outline mb-4">
     <input type="text" id="form6Example4" class="form-control" />
-    <label class="form-label" for="form6Example4">Address</label>
+    <label class="form-label" for="form6Example4">Bairro</label>
   </div>
 
   <!-- Email input -->
   <div class="form-outline mb-4">
     <input type="email" id="form6Example5" class="form-control" />
-    <label class="form-label" for="form6Example5">Email</label>
+    <label class="form-label" for="form6Example5">Cidade</label>
   </div>
+
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+    <input type="email" id="form6Example5" class="form-control" />
+    <label class="form-label" for="form6Example5">Estado</label>
+    <select class="form-select" aria-label="Default select example">
+  <option selected></option>
+  <option value="1">SC</option>
+  <option value="2">RS</option>
+  <option value="3">PR</option>
+  <option value="4">SP</option>
+  <option value="5">RJ</option>
+  <option value="6">MG</option>
+  <option value="7">ES</option>
+  <option value="8">BA</option>
+  <option value="9">AC</option>
+  <option value="10">AL</option>
+  <option value="11">AP</option>
+  <option value="12">CE</option>
+  <option value="13">GO</option>
+  <option value="14">MA</option>
+  <option value="15">MT</option>
+
+</select>
+  </div>
+
 
   <!-- Number input -->
   <div class="form-outline mb-4">
     <input type="number" id="form6Example6" class="form-control" />
-    <label class="form-label" for="form6Example6">Phone</label>
+    <label class="form-label" for="form6Example6">E-mail</label>
   </div>
 
   <!-- Message input -->
   <div class="form-outline mb-4">
-    <textarea class="form-control" id="form6Example7" rows="4"></textarea>
-    <label class="form-label" for="form6Example7">Additional information</label>
+    <textarea class="form-control" id="form6Example7" ></textarea>
+    <label class="form-label" for="form6Example7">Telefone</label>
+  </div>
+  <!-- Message input -->
+  <div class="form-outline mb-4">
+    <textarea class="form-control" id="form6Example7"></textarea>
+    <label class="form-label" for="form6Example7">Whatsapp</label>
   </div>
 
-  <!-- Checkbox -->
-  <div class="form-check d-flex justify-content-center mb-4">
-    <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" checked />
-    <label class="form-check-label" for="form6Example8"> Create an account? </label>
-  </div>
+
+
 
   <!-- Submit button -->
   <button type="submit" class="btn btn-primary btn-block mb-4">Place order</button>
